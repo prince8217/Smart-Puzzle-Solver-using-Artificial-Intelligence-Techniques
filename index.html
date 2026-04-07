@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Puzzle Solver</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🧩 AI Puzzle Solver</h1>
+<p id="info"></p>
+
+<div id="grid"></div>
+
+<select id="algo">
+  <option value="astar">A*</option>
+  <option value="bfs">BFS</option>
+  <option value="dfs">DFS</option>
+</select>
+
+<div>
+  <button onclick="shuffle()">Shuffle</button>
+  <button onclick="solve()">Solve</button>
+</div>
+
+<p id="info"></p>
+
+<script src="script.js"></script>
+</body>
+</html>
